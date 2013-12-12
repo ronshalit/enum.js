@@ -30,6 +30,8 @@ groupBy
 
 toRows 
 
+each
+
 "Static" Methods 
 =================
 
