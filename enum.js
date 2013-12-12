@@ -44,6 +44,13 @@ Enum.prototype.groupBy = function (fn) {
     return Enum.fromArray(arr);
 }
 
+Enum.prototype.each(fn){
+    while(this.n()){
+        fn(this.g());
+    }
+    this.r();
+}
+
 // Utility method that creates rows out of two dimentional array. 
 // e.g::     Enum.fromArray([[1,2,3],[4,5,6]]).toRows() 
 //  returns  <tr> <td>1</td> <td>2</td> <td>3</td> </tr> 
