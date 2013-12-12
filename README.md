@@ -1,7 +1,7 @@
 enum.js
 =======
 
-Implements enumerable objects to Javascript, with usage similar to C# IEnumerable.
+Implements enumerable objects to Javascript, with usage similar to C# IEnumerable / LINQ.
 
 Also allows for easy creation of generators / iterators.
 
